@@ -1,0 +1,11 @@
+LAMBDA EXPRESSION AND INTERFACE  ASSIGNMENT SOLUTION
+1. A lambda expression in Java 8 is an anonymous function that can be passed to a method or used as an expression. It is a concise way to write code that would otherwise be written as a method.
+2. Yes, you can pass a lambda expression to a method provided it is expecting a functional interface. A functional interface is an interface that has only one abstract method. Some examples of functional interfaces in Java 8 are Runnable, Comparator, and Predicate.
+3. A functional interface in Java 8 is an interface with a single abstract method. This means that a functional interface can be implemented by a class that has only one method. This makes functional interfaces very easy to use with lambda expressions.
+4. The main benefit of lambda expressions in Java 8 is that they allow you to write more concise and expressive code. Lambda expressions can also be used to make code more reusable and easier to test.
+5. No, it is not mandatory for a lambda expression to have parameters. You can define a lambda expression without parameters, but it will only be able to perform a single action.
+Here are some examples of lambda expressions:
+(a, b) -> a + b // This lambda expression adds two numbers.
+() -> System.out.println("Hello, world!") // This lambda expression prints a message to the console.
+x -> x * x // This lambda expression squares a number.
+
